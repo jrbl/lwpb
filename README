@@ -1,0 +1,27 @@
+Leaving Word Processors Behind
+------------------------------
+
+What is it?
+ - some stuff I've collected to help writers migrate away from using word
+   processors and toward using text editors, such as FocusWriter
+
+What does it do?
+ - It will walk over a directory heirarchy and dump every .odt file therein
+   to .txt in MarkDown syntax.
+ - Eventually it should also do RTF and other document formats supported by
+   OpenOffice.  Even more eventually, it should do formats supported by 
+   AbiWord or other scriptable open source word processors too.
+ - Eventually it should have Nautilus menu items to let you right-click on a 
+   file and dump it.
+
+Why do I want it?
+ - I don't know.  Maybe you don't.  But I did, so I cobbled together the 
+   pieces and I didn't want to lose my work so I put it in this repository.
+   Here you go.
+
+Can I use it?
+ - I really don't see why not.  Good luck.
+
+Who do I have to thank?
+ - Probably Aaron Swartz, John Gruber, and Yuri Takhteyev.  I haven't really
+   done anything (yet).

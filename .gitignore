@@ -1,0 +1,7 @@
+# ignore backups
+*.bak
+*.orig
+*~
+
+# Also ignore python's generated files
+*.pyc
