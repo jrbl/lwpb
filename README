@@ -20,8 +20,18 @@ Why do I want it?
    Here you go.
 
 Can I use it?
- - I really don't see why not.  Good luck.
+ - You'll need to have the Python libraries elementtree and markdown, a 
+   bourne-compatible shell, and make.  If you know what that means, or 
+   know someone who does, then you can probably use it.
+
+Well, how do I use it?
+ - Get software.  Try checking out the git repository.
+ - make all # will test that you have the python dependencies and install 
+   to ~/bin
+ - Now you've got it installed you can use it.  For example, to convert every
+   OpenOffice document under your home directory in one go, try:
+   cd ~
+   find . -iname '*.odt' -exec oodump {} \;
 
 Who do I have to thank?
- - Probably Aaron Swartz, John Gruber, and Yuri Takhteyev.  I haven't really
-   done anything (yet).
+ - Thank Aaron Swartz, John Gruber, and Yuri Takhteyev. 
